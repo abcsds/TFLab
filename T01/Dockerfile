@@ -29,4 +29,4 @@ CMD ["jupyter", "notebook", "--allow-root", "--no-browser"]
 # docker run --runtime=nvidia -it --rm -v $PWD:/tmp -w /tmp --net=host  --entrypoint "jupyter notebook --allow-root --no-browser" tensorflow/tensorflow:latest-gpu-py3-jupyter
 
 
-# docker run --runtime=nvidia -v $PWD:/root/tf/project --net=host tf
+# docker run --runtime=nvidia -v $PWD:/tmp --net=host tf

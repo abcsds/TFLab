@@ -1,0 +1,8 @@
+numpy
+scipy
+jupyter
+matplotlib
+Pillow
+scikit-learn
+cython
+tensorflow-gpu
